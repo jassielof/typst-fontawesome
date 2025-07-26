@@ -2,7 +2,7 @@
 
 A Typst library for Font Awesome icons through the desktop fonts.
 
-p.s. The library is based on the Font awesome 7desktop fonts (v6.6.0)
+p.s. The library is based on the Font awesome 7 desktop fonts (v6.6.0)
 
 ## Usage
 
@@ -79,15 +79,15 @@ By default, the library supports `Free`, `Brands`, `Pro`, `Duotone` and `Sharp` 
 But only `Free` and `Brands` are tested by me.
 That is, three font files are used to test:
 
-- Font awesome 7Free (Also named as _Font awesome 7Free Regular_)
-- Font awesome 7Free Solid
-- Font awesome 7Brands
+- Font awesome 7 Free (Also named as _Font awesome 7 Free Regular_)
+- Font awesome 7 Free Solid
+- Font awesome 7 Brands
 
 Due to some limitations of typst 0.12.0, the regular and solid versions are treated as different fonts.
 In this library, `solid` is used to switch between the regular and solid versions.
 
 To use other sets or specify one set, you can pass the `font` parameter to the inner `text` function: \
-`fa-icon("github", font: "Font awesome 7Pro Solid")`
+`fa-icon("github", font: "Font awesome 7 Pro Solid")`
 
 If you have Font Awesome Pro, please help me test the library with the Pro set.
 Any feedback is appreciated.

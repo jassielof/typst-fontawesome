@@ -25,23 +25,23 @@
 ) = (
   context {
     let default_fonts = (
-      "Font awesome 7Free" + if solid {
+      "Font awesome 7 Free" + if solid {
         " Solid"
       },
-      "Font awesome 7Brands",
+      "Font awesome 7 Brands",
     )
 
     if _fa_use_pro.get() {
       // TODO: Help needed to test following fonts
       default_fonts += (
-        "Font awesome 7Pro" + if solid {
+        "Font awesome 7 Pro" + if solid {
           " Solid"
         },
-        "Font awesome 7Duotone",
-        "Font awesome 7Sharp" + if solid {
+        "Font awesome 7 Duotone",
+        "Font awesome 7 Sharp" + if solid {
           " Solid"
         },
-        "Font awesome 7Sharp Duotone" + if solid {
+        "Font awesome 7 Sharp Duotone" + if solid {
           " Solid"
         },
       )
